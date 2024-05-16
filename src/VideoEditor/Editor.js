@@ -39,7 +39,7 @@ function Editor({videoUrl, timings, setTimings}) {
 
 	const [trimmedVideo, setTrimmedVideo] = useState()
 
-	const [progress, setProgress] = useState(0)
+	const [ , setProgress] = useState(0)
 
 	const [ready, setReady] = useState(false)
 
