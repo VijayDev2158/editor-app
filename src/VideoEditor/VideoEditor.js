@@ -23,7 +23,7 @@ function VideoEditor() {
 			e.preventDefault()
 			e.stopPropagation()
 		})
-	}, [])
+	}, [toggleThemes])
 
 	const renderUploader = () => {
 		return (
