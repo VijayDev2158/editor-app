@@ -63,7 +63,7 @@ function Editor({videoUrl, timings, setTimings}) {
 			corePath: 'https://unpkg.com/@ffmpeg/core@0.10.0/dist/ffmpeg-core.js'
 		})
 		load()
-	}, [])
+	})
 
 
 	useEffect(() => {
@@ -103,11 +103,11 @@ function Editor({videoUrl, timings, setTimings}) {
 
 	useEffect(() => {
 		return window.removeEventListener('mouseup', removeMouseMoveEventListener)
-	}, [])
+	})
 
 	useEffect(() => {
 		return window.removeEventListener('pointerup', removePointerMoveEventListener)
-	}, [])
+	})
 
 	const handleMouseMoveWhenGrabbed = (event) => {
 		playVideoRef.current.pause()
