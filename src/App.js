@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route,  Routes } from 'react-router-dom';
 import BrandKit from "./pages/BrandKit";
 import Home from "./pages/Home";
 import Templates from "./pages/Templates";
-import Sidebar from './components/Sidebar';
 import './App.css';
 import VideoEditor from './VideoEditor/VideoEditor'
 
